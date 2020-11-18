@@ -15,7 +15,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		color: $main-color;
+		color: $listItemRoleColor;
 		font-size: 11px;
 		font-weight: 700;
 		text-align: center;
@@ -46,7 +46,7 @@
 		backface-visibility: hidden;
 		&%memberOffline {
 			%listItemAvatar {
-				filter: grayscale(100%) blur(1px);
+				filter: grayscale(100%) blur(0px);
 				transition: all .5s ease-in-out;
 			}
 			&:hover {
